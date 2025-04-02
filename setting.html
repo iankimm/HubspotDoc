@@ -1,0 +1,148 @@
+<script>
+  //ENV
+  const HUBSPOT_FORM_ID = "xxxxxxxxxxxxxxxxxxx";
+  const HUBSPOT_PORTAL_ID = "xxxxxx";
+
+  //KEY
+  const MELISSA_KEY = "xxxxxxxxx";
+
+  document.getElementById('addressLine1').addEventListener('input', (e) => {
+    const query = e.target.value;
+    fetchAddressSuggestions(query, MELISSA_KEY);
+  });
+
+  function fetchAddressSuggestions(query, MELISSA_KEY) {
+    if (query.length < 3) {
+      document.getElementById('suggestions').innerHTML = "";
+      return;
+    }
+
+    const melissa_url = `https://expressentry.melissadata.net/web/ExpressAddress?id=${MELISSA_KEY}&opt=&format=json&maxrecords=5&line1=${encodeURIComponent(query)}`;
+
+    fetch(melissa_url)
+      .then(response => response.json())
+      .then(data => showSuggestions(data))
+      .catch(error => console.error('Error fetching address suggestions:', error));
+  }
+
+  function showSuggestions(data) {
+    const suggestionsContainer = document.getElementById('suggestions');
+    suggestionsContainer.innerHTML = '';
+
+    data.Results.forEach(record => {
+      const image = document.createElement('img');
+      image.src = 'https://logowik.com/content/uploads/images/map-pin2696.jpg';
+      image.style.maxHeight = '20px';
+      const suggestion = document.createElement('div');
+
+      const text = document.createElement('span');
+      text.textContent = record.Address.AddressLine1 + ', ' + record.Address.City + ', ' + record.Address.State + ' ' + record.Address.PostalCode;
+
+      suggestion.appendChild(image);
+      suggestion.appendChild(text);
+
+      suggestion.onclick = () => {
+        selectSuggestion(record);
+        suggestionsContainer.style.border = '';
+      }
+
+      suggestionsContainer.appendChild(suggestion);
+    })
+    suggestionsContainer.style.border = '2px solid #007BFF';
+
+    const endImage = document.createElement('img');
+    endImage.src = 'https://www.melissa.com/_borders17/nav/2022/images/melissa-est-logo.svg';
+    endImage.style.maxHeight = '30px';
+    endImage.style.float = 'right';
+
+    //appending to the container
+    suggestionsContainer.appendChild(endImage);
+  }
+
+  function selectSuggestion(record) {
+    document.getElementById('addressLine1').value = record.Address.AddressLine1;
+    if (record.Address.AddressLine2) {
+      document.getElementById('addressLine2').value = record.Address.AddressLine2;
+    }
+    document.getElementById('city').value = record.Address.City;
+    document.getElementById('state').value = record.Address.State;
+    document.getElementById('zipCode').value = record.Address.PostalCode;
+    document.getElementById('country').value = record.Address.CountrySubdivisionCode.slice(0, 2);
+    document.getElementById('suggestions').innerHTML = '';
+  }
+  //end of autocomplete
+
+  //begin of form insertion
+
+  document.getElementById('submitButton').addEventListener('click', (e) => {
+    e.preventDefault();
+    submitData();
+  });
+
+  async function submitData() {
+    const url = `https://api.hsforms.com/submissions/v3/integration/submit/${HUBSPOT_PORTAL_ID}/${HUBSPOT_FORM_ID}`;
+    const headers = {
+      'accept': 'application/json',
+      'content-type': 'application/json',
+    };
+    const data = {
+      "fields": [{
+        "name": "First name",
+        "value": document.getElementById('firstName').value
+      },
+      {
+        "name": "Last name",
+        "value": document.getElementById('lastName').value
+      },
+      {
+        "name": "Phone number",
+        "value": document.getElementById('phoneNumber').value
+      },
+      {
+        "name": "Email",
+        "value": document.getElementById('email').value
+      },
+      {
+        "name": "Street address",
+        "value": document.getElementById('addressLine1').value
+      },
+      {
+        "name": "Address2",
+        "value": document.getElementById('addressLine2').value
+      },
+      {
+        "name": "City",
+        "value": document.getElementById('city').value
+      },
+      {
+        "name": "State/Region",
+        "value": document.getElementById('state').value
+      },
+      {
+        "name": "Postal code",
+        "value": document.getElementById('zipCode').value
+      },
+      {
+        "name": "Country Select",
+        "value": document.getElementById('country').value
+      }
+      ],
+      "skipValidation": false,
+      "context": {}
+    };
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(data)
+      });
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const responseData = await response.json();
+      console.log(responseData);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+</script>
