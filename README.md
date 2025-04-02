@@ -25,6 +25,8 @@
 
 <section id="requirements">
 <h2><a class="toc-backref" href="#id11" role="doc-backlink">Requirements</a><a class="headerlink" href="#requirements" title="Link to this heading"></a></h2>
-- HubSpot account with landing page and form
-- Access to Melissa Express Entry
+<ul>
+  <li>HubSpot account with landing page and form</li>
+  <li>Access to Melissa Express Entry</li>
+</ul>
 </section>
