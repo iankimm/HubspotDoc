@@ -126,7 +126,7 @@ The data entered on the landing page will then be exported and imported into Hub
     &lt;button id="submitButton"&gt;SUBMIT&lt;/button&gt;
   &lt;/form&gt;
   </code></pre>
-
+  <a href="https://github.com/iankimm/HubspotDoc/blob/main/richtext.html">GitHub</a>
   <p><strong>Note:</strong> You should modify the above HTML code to match the specific input IDs and field names from your form. Ensure that the input IDs are correctly mapped to your HubSpot form fields.</p>
   
   <h5>5. Implement Address Suggestions</h5>
