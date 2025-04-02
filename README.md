@@ -110,7 +110,8 @@ The data entered on the landing page will then be exported and imported into Hub
   <h5>4. Add the Custom Form HTML</h5>
   <p>In the <strong>Source Code</strong> view, you can now input the HTML code for the form you created in Step 2. Below is an example HTML form code that corresponds to the fields you configured earlier. Ensure the input IDs and descriptions align with your form setup:</p>
 
-  <pre><code>&lt;form&gt;
+  <pre><code>
+  &lt;form&gt;
     &lt;h3&gt;Example Form&lt;/h3&gt;
     First Name &lt;input id="firstName" type="text"&gt; 
     Last Name &lt;input id="lastName" type="text"&gt; 
@@ -123,7 +124,8 @@ The data entered on the landing page will then be exported and imported into Hub
     Zip Code &lt;input id="zipCode" type="text"&gt; 
     Country &lt;input id="country" type="text"&gt; 
     &lt;button id="submitButton"&gt;SUBMIT&lt;/button&gt;
-  &lt;/form&gt;</code></pre>
+  &lt;/form&gt;
+  </code></pre>
 
   <p><strong>Note:</strong> You should modify the above HTML code to match the specific input IDs and field names from your form. Ensure that the input IDs are correctly mapped to your HubSpot form fields.</p>
   
