@@ -42,8 +42,50 @@ The data entered on the landing page will then be exported and imported into Hub
 <h3><a class="toc-backref" href="#id14" role="doc-backlink">Steps</a><a class="headerlink" href="#steps" title="Link to this heading"></a></h3>
 
 <section id="step1">
-<h4><a class="toc-backref" href="#id15" role="doc-backlink">1. Preparation </a><a class="headerlink" href="#step1" title="Link to this heading"></a></h4>
+  <h4><a class="toc-backref" href="#id15" role="doc-backlink">1. Preparation</a><a class="headerlink" href="#step1" title="Link to this heading"></a></h4>
 
+  <p>The preparation phase is divided into two key tasks: creating a landing page and creating a form. Both tasks require access to the Landing Pages and Forms sections within HubSpot.</p>
+
+  <h5>Part 1: Creating a New Landing Page</h5>
+  <ol>
+    <li><strong>Log into HubSpot</strong><br>
+      Begin by logging into your HubSpot account. Navigate to the Content section in the main navigation menu.
+    </li>
+    <li><strong>Access Landing Pages</strong><br>
+      From the left-hand panel, select Landing Pages under the Content menu.
+    </li>
+    <li><strong>Create a New Landing Page</strong><br>
+      On the Landing Pages page, click the Create button (located in the top right corner of the page). This will initiate the landing page creation process.
+    </li>
+    <li><strong>Select Website and Name the Landing Page</strong><br>
+      In the creation dialog, you will be prompted to select the website that the landing page will be associated with. Afterward, enter a descriptive and identifiable name for the landing page. Ensure that the name clearly reflects the purpose of the page for easy reference.<br>
+      This landing page will serve as a form and will be used to collect user submissions for HubSpot Forms.
+    </li>
+  </ol>
+
+  <h5>Part 2: Creating a New Form</h5>
+  <ol>
+    <li><strong>Navigate to Forms</strong><br>
+      Once the landing page is created, move to the Marketing section in the left-hand navigation menu. Under Marketing, select Forms.
+    </li>
+    <li><strong>Create a New Form</strong><br>
+      Similar to the landing page creation process, click on the Create Form button located in the top right corner.
+    </li>
+    <li><strong>Choose the Form Type</strong><br>
+      HubSpot will offer different form creation options. For a simple, pre-populated form with predefined fields, select the Legacy Editor option. This allows you to create a form based on HubSpot's default templates, streamlining the setup process.
+    </li>
+    <li><strong>Configure Form Fields</strong><br>
+      Follow the guided steps provided by HubSpot to add the necessary fields for your form. Essential fields for your specific use case (to utilize Melissa Express Entry) include:
+      <ul>
+        <li>Street Address</li>
+        <li>City</li>
+        <li>State</li>
+        <li>Zip Code</li>
+        <li>Country</li>
+      </ul>
+      These fields will enable you to capture the required data for integration with Melissa Express Entry on your landing page.
+    </li>
+  </ol>
 </section>
 
 <section id="step2">
