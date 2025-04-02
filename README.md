@@ -153,13 +153,14 @@ UNDER CONSTRUCTION!
   <h5>2. Preparing the Code</h5>
   <p>Before pasting the provided backend code into the Footer HTML, there are several important considerations to ensure everything works as expected:</p>
   <ol>
+    <li><strong>Check 3 Fields:</strong> The code provided below need to be updated in three different fields. Form information saved in Step 2 and Melissa Express Entry information need to be included.</li>
     <li><strong>Customizing for Your Form:</strong> The code you are about to integrate is designed to work with the example form provided in Step 3. If your form differs from the example, you may need to modify the code to match your specific form fields (e.g., input IDs, field names, or validation logic).</li>
     <li><strong>Review Dependencies:</strong> Ensure that any third-party integrations, such as Melissa Express Entry or other services, are properly set up and referenced within the code.</li>
-    <li><strong>Testing:</strong> It is crucial to test the code thoroughly in a development environment before applying it to the live landing page. This ensures that all backend functionalities, such as form submission handling, data validation, and integration with external services, work as expected.</li>
   </ol>
+  <a href="https://github.com/iankimm/HubspotDoc/blob/main/setting.html">Code File</a>
 
   <h5>3. Adding the Code to the Footer HTML</h5>
-  <p>Once you have reviewed and prepared the code, you can proceed to paste it into the Footer HTML section. This will allow the form to perform necessary functions, such as processing submissions and interacting with the services configured earlier (e.g., Melissa Express Entry). Ensure that the code is placed correctly, without interrupting other elements of the page.</p>
+  <p>Once you have reviewed and prepared the code, you can proceed to paste it into the Footer HTML section. This will allow the form to perform necessary functions, such as processing submissions and interacting with the Melissa Express Entry services configured earlier. Ensure that the code is placed correctly, without interrupting other elements of the page.</p>
 
   <h5>4. Finalizing the Configuration</h5>
   <p>After pasting the code and ensuring everything is configured, be sure to save the changes. Once saved, the landing page will be fully configured to handle form submissions with the necessary backend logic in place.</p>
