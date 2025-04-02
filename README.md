@@ -23,7 +23,7 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#requirements">Requirements</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#Steps">Steps</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#officials-resources">Officials resources</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#officials-resources">Officials resources</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#officials-resources">Officials resources</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#officials-resources">Officials resources</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#officials-resources">Officials resources</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#officials-resources">Officials resources</a></li>
 </ul>
