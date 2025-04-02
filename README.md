@@ -90,7 +90,7 @@ The data entered on the landing page will then be exported and imported into Hub
 
 <section id="step2">
 <h4><a class="toc-backref" href="#id15" role="doc-backlink">2. Creating HubSpot Form</a><a class="headerlink" href="#step2" title="Link to this heading"></a></h4>
-
+UNDER CONSTRUCTION!
 </section>
 
 <section id="step3">
@@ -126,7 +126,7 @@ The data entered on the landing page will then be exported and imported into Hub
     &lt;button id="submitButton"&gt;SUBMIT&lt;/button&gt;
   &lt;/form&gt;
   </code></pre>
-
+  <a href="https://github.com/iankimm/HubspotDoc/blob/main/richtext.html">Code File</a>
   <p><strong>Note:</strong> You should modify the above HTML code to match the specific input IDs and field names from your form. Ensure that the input IDs are correctly mapped to your HubSpot form fields.</p>
   
   <h5>5. Implement Address Suggestions</h5>
@@ -138,13 +138,40 @@ The data entered on the landing page will then be exported and imported into Hub
 </section>
 
 <section id="step4">
-<h4><a class="toc-backref" href="#id15" role="doc-backlink">4. Configuration</a><a class="headerlink" href="#step4" title="Link to this heading"></a></h4>
+  <h4><a class="toc-backref" href="#id15" role="doc-backlink">4. Configuration</a><a class="headerlink" href="#step4" title="Link to this heading"></a></h4>
+
+  <p>In this step, we will configure the backend functionality for the form set up in Step 3. This involves adding necessary code to the footer HTML of the landing page to enable the proper working of the form's backend processes.</p>
+
+  <h5>1. Accessing the Footer HTML Section</h5>
+  <p>To begin, navigate to the settings of the landing page you're currently editing. Specifically, you need to access the <strong>Footer HTML</strong> section, where we will be integrating the backend code for the form functionalities. Follow these steps:</p>
+  <ol>
+    <li>Open the landing page settings.</li>
+    <li>Go to the <strong>Advanced</strong> tab.</li>
+    <li>Locate the <strong>Footer HTML</strong> field.</li>
+  </ol>
+
+  <h5>2. Preparing the Code</h5>
+  <p>Before pasting the provided backend code into the Footer HTML, there are several important considerations to ensure everything works as expected:</p>
+  <ol>
+    <li><strong>Check 3 Fields:</strong> The code provided below need to be updated in three different fields. Form information saved in Step 2 and Melissa Express Entry information need to be included.</li>
+    <li><strong>Customizing for Your Form:</strong> The code you are about to integrate is designed to work with the example form provided in Step 3. If your form differs from the example, you may need to modify the code to match your specific form fields (e.g., input IDs, field names, or validation logic).</li>
+    <li><strong>Review Dependencies:</strong> Ensure that any third-party integrations, such as Melissa Express Entry or other services, are properly set up and referenced within the code.</li>
+  </ol>
+  <a href="https://github.com/iankimm/HubspotDoc/blob/main/setting.html">Code File</a>
+
+  <h5>3. Adding the Code to the Footer HTML</h5>
+  <p>Once you have reviewed and prepared the code, you can proceed to paste it into the Footer HTML section. This will allow the form to perform necessary functions, such as processing submissions and interacting with the Melissa Express Entry services configured earlier. Ensure that the code is placed correctly, without interrupting other elements of the page.</p>
+
+  <h5>4. Finalizing the Configuration</h5>
+  <p>After pasting the code and ensuring everything is configured, be sure to save the changes. Once saved, the landing page will be fully configured to handle form submissions with the necessary backend logic in place.</p>
+
+  <p><strong>Note:</strong> It is highly recommended to conduct thorough testing after applying the configuration to confirm that the form functionalities are working seamlessly, especially for integrations with external services like Melissa Express Entry.</p>
 
 </section>
 
 <section id="step5">
 <h4><a class="toc-backref" href="#id15" role="doc-backlink">5. Finish</a><a class="headerlink" href="#step5" title="Link to this heading"></a></h4>
-
+UNDER CONSTRUCTION
 </section>
   
 </section>
