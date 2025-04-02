@@ -4,7 +4,7 @@
 - Introduction
 - Requirements
 - Steps
-   - 1. d
-   - 2. a 
+  1. a
+  2. b
 
 ## Introduction
