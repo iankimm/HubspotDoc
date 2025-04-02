@@ -1,9 +1,9 @@
 <script>
-  //ENV
+  // Field 1, Form ID and Portal ID saved from Step 2 need to be inserted between "" below.
   const HUBSPOT_FORM_ID = "xxxxxxxxxxxxxxxxxxx";
   const HUBSPOT_PORTAL_ID = "xxxxxx";
 
-  //KEY
+  // Field 2, Melissa Key provided for Express Entry need to be inserted between "" below.
   const MELISSA_KEY = "xxxxxxxxx";
 
   document.getElementById('addressLine1').addEventListener('input', (e) => {
@@ -55,7 +55,6 @@
     endImage.style.maxHeight = '30px';
     endImage.style.float = 'right';
 
-    //appending to the container
     suggestionsContainer.appendChild(endImage);
   }
 
@@ -70,9 +69,6 @@
     document.getElementById('country').value = record.Address.CountrySubdivisionCode.slice(0, 2);
     document.getElementById('suggestions').innerHTML = '';
   }
-  //end of autocomplete
-
-  //begin of form insertion
 
   document.getElementById('submitButton').addEventListener('click', (e) => {
     e.preventDefault();
@@ -85,6 +81,7 @@
       'accept': 'application/json',
       'content-type': 'application/json',
     };
+    //Field 3, For the data fields that you included in forms when form & landing page were created. Please add similarly below in the list.
     const data = {
       "fields": [{
         "name": "First name",
