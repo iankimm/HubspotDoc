@@ -13,6 +13,8 @@
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step1">1. Preparation</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step2">2. Creating HubSpot Form</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step3">3. Creating HubSpot Landing Page</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step4">4. Configuration</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step5">5. Finish</a></li>
 </ul>
 </section>
   
@@ -49,6 +51,16 @@
 
 <section id="step3">
 <h4><a class="toc-backref" href="#id15" role="doc-backlink">3. Creating HubSpot Landing Page</a><a class="headerlink" href="#step3" title="Link to this heading"></a></h4>
+
+</section>
+
+<section id="step4">
+<h4><a class="toc-backref" href="#id15" role="doc-backlink">4. Configuration</a><a class="headerlink" href="#step4" title="Link to this heading"></a></h4>
+
+</section>
+
+<section id="step5">
+<h4><a class="toc-backref" href="#id15" role="doc-backlink">5. Finish</a><a class="headerlink" href="#step5" title="Link to this heading"></a></h4>
 
 </section>
   
