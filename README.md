@@ -21,9 +21,9 @@
 <section id="introduction">
 <h2><a class="toc-backref" href="#id11" role="doc-backlink">Introduction</a><a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
 <p>This guide provides detailed instructions for integrating Melissa's Express Entry service, an auto-complete address verification tool, with HubSpot. </p>
-<o>Since HubSpot does not natively support the integration of external APIs within its forms, this solution utilizes a landing page that functions as a form. </o>
-<p>The landing page will collect address data through Melissa's Express Entry service, automatically verifying and completing fields such as city, state, and postal code, while reducing manual entry by up to 50%.</p> 
-<p>The data entered on the landing page will then be exported and imported into HubSpot form submissions, ensuring accurate and efficient data capture.</p>
+<o>Since HubSpot does not natively support the integration of external APIs within its forms, this solution utilizes a landing page that functions as a form. 
+The landing page will collect address data through Melissa's Express Entry service, automatically verifying and completing fields such as city, state, and postal code, while reducing manual entry by up to 50%.
+The data entered on the landing page will then be exported and imported into HubSpot form submissions, ensuring accurate and efficient data capture.</p>
 
 </section>
 
