@@ -96,7 +96,7 @@ The data entered on the landing page will then be exported and imported into Hub
 <section id="step3">
   <h4><a class="toc-backref" href="#id15" role="doc-backlink">3. Creating HubSpot Landing Page</a><a class="headerlink" href="#step3" title="Link to this heading"></a></h4>
 
-  <p>In this step, we will configure the HubSpot landing page created in Step 1 to include a custom form. The process involves removing the default content automatically populated by HubSpot and replacing it with the form you set up in Step 2.</p>
+  <p>In this step, we will configure the HubSpot landing page created in Step 1 to display page like a form. The process involves removing the default content automatically populated by HubSpot and replacing it with the form fields you set up in Step 2.</p>
 
   <h5>1. Remove Default Content</h5>
   <p>Navigate to the HubSpot landing page you created in Step 1. By default, HubSpot may have populated the landing page with pre-existing content. To begin, delete this default content to ensure that the page is empty and ready for your custom form.</p>
@@ -108,7 +108,7 @@ The data entered on the landing page will then be exported and imported into Hub
   <p>Click on the newly added <strong>Rich Text</strong> box to open its settings. In the top-right corner of the settings menu, look for the <strong>Advanced Options</strong> dropdown, and select <strong>Source Code</strong>. This will enable you to insert custom HTML code directly into the page.</p>
 
   <h5>4. Add the Custom Form HTML</h5>
-  <p>In the <strong>Source Code</strong> view, you can now input the HTML code for the form you created in Step 2. Below is an example HTML form code that corresponds to the fields you configured earlier. Ensure the input IDs and descriptions align with your form setup:</p>
+  <p>In the <strong>Source Code</strong> view, you can now input the HTML code for the form fields you created in Step 2. Below is an example HTML form code that corresponds to the fields you configured earlier for example. Ensure the input IDs and descriptions align with your form setup:</p>
 
   <pre><code>
   &lt;form&gt;
