@@ -93,7 +93,10 @@ The data entered on the landing page will then be exported and imported into Hub
 
 </section>
 
- <p>In this step, we will configure the HubSpot landing page created in Step 1 to include a custom form. The process involves removing the default content automatically populated by HubSpot and replacing it with the form you set up in Step 2.</p>
+<section id="step3">
+  <h4><a class="toc-backref" href="#id15" role="doc-backlink">3. Creating HubSpot Landing Page</a><a class="headerlink" href="#step3" title="Link to this heading"></a></h4>
+
+  <p>In this step, we will configure the HubSpot landing page created in Step 1 to include a custom form. The process involves removing the default content automatically populated by HubSpot and replacing it with the form you set up in Step 2.</p>
 
   <h5>1. Remove Default Content</h5>
   <p>Navigate to the HubSpot landing page you created in Step 1. By default, HubSpot may have populated the landing page with pre-existing content. To begin, delete this default content to ensure that the page is empty and ready for your custom form.</p>
@@ -107,29 +110,25 @@ The data entered on the landing page will then be exported and imported into Hub
   <h5>4. Add the Custom Form HTML</h5>
   <p>In the <strong>Source Code</strong> view, you can now input the HTML code for the form you created in Step 2. Below is an example HTML form code that corresponds to the fields you configured earlier. Ensure the input IDs and descriptions align with your form setup:</p>
 
-  <pre>
-  <code>
-  <form>
-    <h3>Example Form</h3>
-    First Name <input id="firstName" type="text"> 
-    Last Name <input id="lastName" type="text"> 
-    Phone Number <input id="phoneNumber" type="text"> 
-    Email <input id="email" type="text"> 
-    Address Line 1 <input id="addressLine1" type="text"> <span id="suggestions"></span> 
-    Address Line 2 <input id="addressLine2" type="text"> 
-    City <input id="city" type="text"> 
-    State <input id="state" type="text"> 
-    Zip Code <input id="zipCode" type="text"> 
-    Country <input id="country" type="text"> 
-    <button id="submitButton">SUBMIT</button>
-  </form>
-  </code>
-  </pre>
+  <pre><code>&lt;form&gt;
+    &lt;h3&gt;Example Form&lt;/h3&gt;
+    First Name &lt;input id="firstName" type="text"&gt; 
+    Last Name &lt;input id="lastName" type="text"&gt; 
+    Phone Number &lt;input id="phoneNumber" type="text"&gt; 
+    Email &lt;input id="email" type="text"&gt; 
+    Address Line 1 &lt;input id="addressLine1" type="text"&gt; &lt;span id="suggestions"&gt;&lt;/span&gt; 
+    Address Line 2 &lt;input id="addressLine2" type="text"&gt; 
+    City &lt;input id="city" type="text"&gt; 
+    State &lt;input id="state" type="text"&gt; 
+    Zip Code &lt;input id="zipCode" type="text"&gt; 
+    Country &lt;input id="country" type="text"&gt; 
+    &lt;button id="submitButton"&gt;SUBMIT&lt;/button&gt;
+  &lt;/form&gt;</code></pre>
 
   <p><strong>Note:</strong> You should modify the above HTML code to match the specific input IDs and field names from your form. Ensure that the input IDs are correctly mapped to your HubSpot form fields.</p>
   
   <h5>5. Implement Address Suggestions</h5>
-  <p>Particularly for the <strong>Address Line 1</strong> field, keep the <code><span id="suggestions"></span></code> element active. This will be used later to integrate address suggestions from <strong>Melissa Express Entry</strong>, providing users with accurate address data as they type.</p>
+  <p>Particularly for the <strong>Address Line 1</strong> field, keep the <code>&lt;span id="suggestions"&gt;&lt;/span&gt;</code> element active. This will be used later to integrate address suggestions from <strong>Melissa Express Entry</strong>, providing users with accurate address data as they type.</p>
 
   <h5>6. Save the Changes</h5>
   <p>Once you've inserted and adjusted the HTML code to your satisfaction, be sure to save the changes. This will make the custom form live on the landing page, ready to collect user submissions.</p>
