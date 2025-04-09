@@ -170,8 +170,9 @@ UNDER CONSTRUCTION!
 </section>
 
 <section id="step5">
-<h4><a class="toc-backref" href="#id15" role="doc-backlink">5. Finish</a><a class="headerlink" href="#step5" title="Link to this heading"></a></h4>
-UNDER CONSTRUCTION need
+  <h4><a class="toc-backref" href="#id15" role="doc-backlink">5. Finalizing Setup</a><a class="headerlink" href="#step5" title="Link to this heading"></a></h4>
+  
+  <p>Upon completing the configuration, proceed to save both the form and the associated landing page. After saving, you can publish the content to make it live. Once the landing page is published, conduct a thorough testing process to validate that the form submission is properly exported and imported into HubSpot. This ensures that the form is correctly integrated and functioning as intended. After successful testing and confirmation, the landing page will be fully set up and operational as a form, ready for use.</p>
 </section>
   
 </section>
