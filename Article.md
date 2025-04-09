@@ -74,6 +74,7 @@ By default, HubSpot may populate your landing page with pre-existing content. Si
   Country <input id="country" type="text">
   <button id="submitButton">Submit</button>
 </form>
+```
 
 #### 2.3 Save the Page
 Once your form is set up, **save** the page. This is where the auto-complete magic will happen.
