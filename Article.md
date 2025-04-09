@@ -90,7 +90,7 @@ HubSpot’s default landing pages often come with pre-existing content. Go ahead
   <button id="submitButton">Submit</button>
 </form>
 ```
-
+<a href="https://github.com/iankimm/HubspotDoc/blob/main/richtext.html">Code File</a>
 
 **2.3 Save the Page**
 
@@ -98,7 +98,7 @@ Once your form is in place, **save the page**. The auto-complete magic will star
 
 ---
 
-### Step 3: Add the Backend Code
+### Step 3: Add the JavaScript Code
 
 We’re almost there! Now, we need to add the **JavaScript code** that will integrate **Melissa Express Entry** with your form.
 
@@ -107,15 +107,16 @@ We’re almost there! Now, we need to add the **JavaScript code** that will inte
 - Go to the settings of your landing page.
 - Under the **Advanced** tab, find the **Footer HTML** section.
 
-**3.2 Add the Backend Code**
+**3.2 Add the JavaScript Code**
 
-Before adding the backend code, make sure to:
+Before adding the JavaScript code, make sure to:
 - **Update the form fields** to match what you’ve used on the page.
 - **Reference the Melissa Express Entry API** in your script.
 
 **3.3 Paste the JavaScript Code**
 
-Now, **paste your custom backend code** into the **Footer HTML** section. This code will ensure the form interacts with **Melissa Express Entry**, enabling real-time address validation.
+Now, **paste your custom code** into the **Footer HTML** section. This code will ensure the form interacts with **Melissa Express Entry**, enabling real-time address validation.
+<a href="https://github.com/iankimm/HubspotDoc/blob/main/setting.html">Code File</a>
 
 **3.4 Save and Test**
 
