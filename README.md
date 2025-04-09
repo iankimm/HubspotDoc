@@ -11,10 +11,9 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#steps">Steps</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step1">1. Preparation</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step2">2. Creating HubSpot Form</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step3">3. Creating HubSpot Landing Page</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step4">4. Configuration</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step5">5. Finish</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step2">2. Creating HubSpot Landing Page</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step3">3. Configuration</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#step4">4. Finish</a></li>
 </ul>
 </section>
   
@@ -88,13 +87,9 @@ The data entered on the landing page will then be exported and imported into Hub
   </ol>
 </section>
 
-<section id="step2">
-<h4><a class="toc-backref" href="#id15" role="doc-backlink">2. Creating HubSpot Form</a><a class="headerlink" href="#step2" title="Link to this heading"></a></h4>
-UNDER CONSTRUCTION!
-</section>
 
-<section id="step3">
-  <h4><a class="toc-backref" href="#id15" role="doc-backlink">3. Creating HubSpot Landing Page</a><a class="headerlink" href="#step3" title="Link to this heading"></a></h4>
+<section id="step2">
+  <h4><a class="toc-backref" href="#id15" role="doc-backlink">2. Creating HubSpot Landing Page</a><a class="headerlink" href="#step2" title="Link to this heading"></a></h4>
 
   <p>In this step, we will configure the HubSpot landing page created in Step 1 to display page like a form. The process involves removing the default content automatically populated by HubSpot and replacing it with the form fields you set up in Step 2.</p>
 
@@ -137,8 +132,8 @@ UNDER CONSTRUCTION!
 
 </section>
 
-<section id="step4">
-  <h4><a class="toc-backref" href="#id15" role="doc-backlink">4. Configuration</a><a class="headerlink" href="#step4" title="Link to this heading"></a></h4>
+<section id="step3">
+  <h4><a class="toc-backref" href="#id15" role="doc-backlink">3. Configuration</a><a class="headerlink" href="#step3" title="Link to this heading"></a></h4>
 
   <p>In this step, we will configure the backend functionality for the form set up in Step 3. This involves adding necessary code to the footer HTML of the landing page to enable the proper working of the form's backend processes.</p>
 
@@ -169,9 +164,10 @@ UNDER CONSTRUCTION!
 
 </section>
 
-<section id="step5">
-<h4><a class="toc-backref" href="#id15" role="doc-backlink">5. Finish</a><a class="headerlink" href="#step5" title="Link to this heading"></a></h4>
-UNDER CONSTRUCTION need
+<section id="step4">
+  <h4><a class="toc-backref" href="#id15" role="doc-backlink">4. Finalizing Setup</a><a class="headerlink" href="#step4" title="Link to this heading"></a></h4>
+  
+  <p>Upon completing the configuration, proceed to save both the form and the associated landing page. After saving, you can publish the content to make it live. Once the landing page is published, conduct a thorough testing process to validate that the form submission is properly exported and imported into HubSpot. This ensures that the form is correctly integrated and functioning as intended. After successful testing and confirmation, the landing page will be fully set up and operational as a form, ready for use.</p>
 </section>
   
 </section>
