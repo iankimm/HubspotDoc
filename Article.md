@@ -139,4 +139,3 @@ Once everything looks good and is functioning smoothly, you’re ready to go liv
 And there you have it — a **fully functional address verification system** integrated with **Melissa Express Entry** on a **HubSpot landing page**. Say goodbye to typos, incorrect addresses, and fake data. Your users will have a seamless experience with real-time address suggestions, and your CRM will get clean, validated data every time.
 
 It’s a win-win for everyone! Go ahead, **test it**, **tweak it**, and enjoy the satisfaction of never having to deal with messy address data again.
-This version is now formatted for a GitHub README.md file and includes the necessary markdown syntax 
