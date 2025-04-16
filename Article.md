@@ -114,6 +114,7 @@ Before adding the JavaScript code, make sure to:
 **3.3 Paste the JavaScript Code**
 
 Now, **paste your custom code** into the **Footer HTML** section. This code will ensure the form interacts with **Melissa Express Entry**, enabling real-time address validation.
+Code file has three fields that user needs to edit. Please follow field requirements in Code File.
 <a href="https://github.com/iankimm/HubspotDoc/blob/main/setting.html">Code File</a>
 
 **3.4 Save and Test**
