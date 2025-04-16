@@ -33,55 +33,61 @@ Instead of relying on HubSpot’s default form, we’ll bypass the limitations a
 - Click **Create** in the top-right corner.
 - Name your landing page something catchy — perhaps "Address Verification Form" or "Where Do You Live? We’re Not Stalking You."
 
-**1.2 Create the HubSpot Form**
+## 1.2 Create the HubSpot Form
 
-Next, we need to create the form that will capture the data from your users. To do this:
-- Go to **Marketing > Forms**.
-- Click **Create Form** and choose the **Legacy Editor**.
-- Add these essential fields:
-  - First Name
-  - Last Name
-  - Email Address
-  - Address Line 1
-  - Address Line 2
-  - City
-  - State
-  - Zip Code
-  - Country
+Next, create the form that will collect data from your users:
 
-These fields will correspond with **Melissa Express Entry**, ensuring that addresses are validated correctly. Make sure you don’t skip any of these—your form won’t work properly without them!
+- Navigate to **Marketing > Forms** in HubSpot.  
+- Click **Create Form** and select the **Legacy Editor**.  
+- Add the following fields:
+
+  - Address Line 1  
+  - Address Line 2  
+  - City  
+  - State  
+  - Zip Code  
+  - Country  
+
+These fields are essential for proper integration with **Melissa Express Entry**, ensuring real-time address validation.  
+
+You may also choose to include commonly used fields like **First Name**, **Last Name**, **Phone Number**, and **Email Address**—while not required for address validation, they are standard in most lead capture forms.
 
 ---
 
-### Step 2: Building the Custom Landing Page Form
+## Step 2: Building the Custom Landing Page Form
 
-Now, let’s move on to the fun part — adding that **custom form** to your landing page using HTML.
+Now, let’s move on to embedding your custom form directly into a landing page using HTML.
 
-**2.1 Remove Default Content**
+### 2.1 Remove Default Content
 
-HubSpot’s default landing pages often come with pre-existing content. Go ahead and delete this content so that we can start fresh.
+Start by removing any default content on the landing page to create a blank canvas.
 
-**2.2 Add a Rich Text Module**
+### 2.2 Add a Rich Text Module
 
-- From the left sidebar, drag a **Rich Text module** to where you want the form to appear on the page.
-- Click on **Source Code** in the module settings, then paste the following **HTML code** for your form:
+- Drag a **Rich Text module** to the desired section of your landing page.  
+- Click **Source Code** in the module settings and paste the following HTML:
 
 ```html
 <form>
   <h3>Address Verification Form</h3>
+  <!-- Optional Fields -->
   First Name <input id="firstName" type="text">
   Last Name <input id="lastName" type="text">
   Phone Number <input id="phoneNumber" type="text">
   Email <input id="email" type="text">
+  
+  <!-- Essential Address Fields -->
   Address Line 1 <input id="addressLine1" type="text"> <span id="suggestions"></span>
   Address Line 2 <input id="addressLine2" type="text">
   City <input id="city" type="text">
   State <input id="state" type="text">
   Zip Code <input id="zipCode" type="text">
   Country <input id="country" type="text">
+
   <button id="submitButton">Submit</button>
 </form>
 ```
+
 <a href="https://github.com/iankimm/HubspotDoc/blob/main/richtext.html">Code File</a>
 
 **2.3 Save the Page**
